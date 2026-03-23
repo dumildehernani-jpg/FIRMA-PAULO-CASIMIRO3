@@ -1,0 +1,116 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.topo {
+    background: #0b1d3a;
+    color: white;
+    padding: 15px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-area img {
+    width: 60px;
+}
+
+nav {
+    background: #222;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('images/fundo.jpg') center/cover;
+    height: 400px;
+    color: white;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.btn {
+    background: #25D366;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.box {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.galeria img {
+    width: 250px;
+    margin: 10px;
+}
+
+.projetos {
+    display: flex;
+    gap: 20px;
+}
+
+.projeto {
+    background: #eee;
+    padding: 20px;
+}
+
+.doc {
+    display: block;
+    margin: 10px 0;
+    color: #0b1d3a;
+}
+
+form {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #0b1d3a;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+footer {
+    background: #0b1d3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
